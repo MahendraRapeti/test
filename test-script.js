@@ -1,1 +1,5 @@
-console.log(navigator.geolocation,"geodata")
+const fun = () => {
+
+    navigator.geolocation.getCurrentPosition((pos) => console.log(pos))
+}
+fun()
